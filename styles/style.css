@@ -2,12 +2,17 @@ body{
   color:#634A3A;
   text-align: justify;
   font-size: 1.3rem;
+    font-family: 'Marcellus', serif;
 }
 
 h1{
   font-family: 'Bentham', serif;
   color: #43AAB0;
   text-align: center;
+}
+
+h3{
+
 }
 
 hr{
@@ -23,7 +28,7 @@ a:hover{
 }
 
 /* containers */
-.titleContainer{
+.basicContainer{
   margin: 2rem auto 2rem auto;
 }
 
@@ -73,4 +78,31 @@ a:hover{
   height: 60rem;
   margin-left: 50%;
   transform: translateX(-50%);
+}
+
+.titleVideo{
+  width: 100%;
+}
+
+/* Party Section */
+
+/* carousel */
+.carousel-inner{
+  text-align: left;
+}
+.carouselImg{
+  float:left;
+  height: 20rem;
+  margin: auto 3rem auto auto;
+}
+
+.carouselTextContainer{
+  height: 20rem;
+  background-color: #634A3A;
+  padding-top: 2rem;
+  color: white;
+}
+
+.indicatorSpace{
+  height: 3.5rem;
 }
