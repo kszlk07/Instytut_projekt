@@ -106,3 +106,7 @@ a:hover{
 .indicatorSpace{
   height: 3.5rem;
 }
+
+.carousel-indicators [data-bs-target] {
+  background-color: #634A3A;
+}
