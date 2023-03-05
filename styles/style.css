@@ -83,6 +83,11 @@ p{
   width:4rem;
 }
 
+.navLineMobile
+{
+  border-top: 0;
+  margin: 0;
+}
 /* Title Section */
 
 .titleImgContainer{
@@ -106,6 +111,8 @@ p{
 .carousel-inner{
   text-align: left;
 }
+/* Quarry - md - text-align: center; */
+
 .carouselImg{
   float:left;
   height: 20rem;
@@ -117,6 +124,7 @@ p{
   background-color: #634A3A;
   padding-top: 2rem;
   color: white;
+  padding-left: 2rem;
 }
 
 .indicatorSpace{
