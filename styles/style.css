@@ -74,10 +74,19 @@ p{
 .navbar{
   font-family: 'Trirong', serif;
   font-weight: 300;
+  padding-bottom: 0;
 }
+
+.navContainer{
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .nav-link{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: #634A3A;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .nav-link:hover{
@@ -187,4 +196,38 @@ p{
   text-align: center;
   font-size: 0.9rem;
 }
-@media (max-width: 992px){
+@media (max-width: 991px){
+  .navLinePC{
+    border-top: 0;
+    width: 0;
+  }
+  .navLineMobile{
+    border-top: 5px solid #634A3A;
+    margin-bottom: 1rem;
+  }
+  .nav-link{
+    margin-left: 0.5rem;
+  }
+  .carouselTextContainer{
+    height: 15rem;
+  }
+  h1{
+    font-size: 2rem;
+  }
+}
+@media (max-width: 765px){
+  .roundImg{
+    width: 14rem
+  }
+  .roundImg:hover{
+    width: 16rem;
+  }
+}
+@media (max-width: 574px){
+  .roundImg{
+    width: 10rem
+  }
+  .roundImg:hover{
+    width: 11rem;
+  }
+}
