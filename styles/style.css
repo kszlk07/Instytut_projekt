@@ -180,6 +180,13 @@ p{
   height: 4.5rem;
 }
 
+/* References Section */
+.referenceContainer{
+  height: 20rem;
+  text-align: justify;
+    text-align-last: center;
+}
+
 /* contact section */
 .contactP{
   margin: 0.8rem auto;
@@ -197,6 +204,23 @@ p{
   font-size: 0.9rem;
 }
 @media (max-width: 991px){
+  body{
+    font-size: 0.9rem;
+    text-align: justify;
+    text-align-last: center;
+  }
+  h1{
+    font-size: 1.4rem;
+  }
+  h4{
+    font-size: calc(1rem + .6vw);
+  }
+  h3{
+    font-size: calc(1rem + .6vw);
+  }
+  h5{
+    font-size: 1.2rem;
+  }
   .navLinePC{
     border-top: 0;
     width: 0;
@@ -211,9 +235,10 @@ p{
   .carouselTextContainer{
     height: 15rem;
   }
-  h1{
-    font-size: 2rem;
+  .footerP{
+    margin: auto 0;
   }
+
 }
 @media (max-width: 765px){
   .roundImg{
